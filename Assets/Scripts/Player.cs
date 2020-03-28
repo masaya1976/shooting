@@ -44,5 +44,13 @@ public class Player : Token
         //idousite sotoni denaiyouni suru
         ClampScreenAndMove(v * speed);
 
+        //space key de shot wo utu
+        if (Input.GetKey(KeyCode.Space))
+        {
+            float px = X + Random.Range(0, SpriteWidth / 2);
+            float dir = Random.Range(-3.0f, 3.0f);
+
+            Shot.Add(px, Y, dir, 10);
+        }
     }
 }

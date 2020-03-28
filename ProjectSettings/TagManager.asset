@@ -44,3 +44,9 @@ TagManager:
   - name: Upper
     uniqueID: 3607666047
     locked: 0
+  - name: Player
+    uniqueID: 2208593577
+    locked: 0
+  - name: Shot
+    uniqueID: 1589956567
+    locked: 0
