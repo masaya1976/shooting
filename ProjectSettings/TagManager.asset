@@ -13,9 +13,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Player
+  - Shot
+  - Enemy
   - 
   - 
   - 
@@ -44,9 +44,15 @@ TagManager:
   - name: Upper
     uniqueID: 3607666047
     locked: 0
+  - name: Shot
+    uniqueID: 1589956567
+    locked: 0
   - name: Player
     uniqueID: 2208593577
     locked: 0
-  - name: Shot
-    uniqueID: 1589956567
+  - name: Enemy
+    uniqueID: 3241540351
+    locked: 0
+  - name: Particle
+    uniqueID: 4131700305
     locked: 0
